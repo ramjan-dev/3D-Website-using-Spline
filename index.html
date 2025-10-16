@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page1">
+      <nav>
+        <a href="">
+          <h1 class="logo">MD.RAMJAN ALI</h1>
+        </a>
+        <div class="navigation">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </div>
+      </nav>
+
+      <div class="main">
+        <div class="left">
+          <h1>
+            "Step Into Tomorrow: A 3D Journey Beyond Imagination 🧑‍💻</h1>
+
+          <p>
+            Welcome to the next era of digital innovation! Our 3D website turns
+            imagination into reality, redefining how you experience the online
+            world. With breathtaking visuals, fluid animations, and immersive
+            designs, we push beyond the limits of traditional web creation.
+          </p>
+          <div class="btu">
+            <button id="contact">Contact Us</button>
+            <button id="started">Get started</button>
+          </div>
+        </div>
+        <div class="right">
+          <spline-viewer
+            id="threeD"
+            url="https://prod.spline.design/UpARULK4U30l8wgh/scene.splinecode"
+          ></spline-viewer>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.10.80/build/spline-viewer.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
